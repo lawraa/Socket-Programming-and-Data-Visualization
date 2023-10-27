@@ -4,6 +4,7 @@ Create a program in stm32 to read the sensor value, such as 3D Accelerator and 3
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
+- [Collaborators](#collaborators)
 
 ## Description
 This repository contains two files: `main.cpp` and `socket-server.py`. `socket-server.py` acts as the server, listening to data from `main.cpp`, and plots the received data. The purpose of this project is to demonstrate data transfer between a C++ program and a Python server, with data visualization using Matplotlib.
@@ -17,3 +18,7 @@ Ensure you have the required dependencies installed:
 2. For main.cpp:
 - Mbed OS (make sure you have a compatible target)
 
+## Collaborators
+
+Partner that contributed to this project:
+- [Lichun Lu](https://github.com/lichun-19)
